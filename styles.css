@@ -69,7 +69,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     margin-top: 10px;
 }
 
@@ -87,4 +87,8 @@ body {
     font-weight: 400;
     letter-spacing: 2px;
     margin-top: 10px;
+}
+
+.qr-code-img {
+    width: 21.7vw;
 }
