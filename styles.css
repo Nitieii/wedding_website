@@ -1,0 +1,90 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: c, sans-serif;
+}
+
+body {
+    background-color: #EEEDEE;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@font-face {
+    font-family: fg;
+    font-weight: 300;
+    font-style: normal;
+    src: url(/font/FoundersGrotesk-Light.woff2) format("woff2"), url(/font/FoundersGrotesk-Light.woff) format("woff")
+}
+
+@font-face {
+    font-family: fg;
+    font-weight: 500;
+    font-style: normal;
+    src: url(/font/FoundersGrotesk-Medium.woff2) format("woff2"), url(/font/FoundersGrotesk-Medium.woff) format("woff")
+}
+
+@font-face {
+    font-family: c;
+    font-weight: 400;
+    font-style: normal;
+    src: url(/font/Canela-Regular.woff2) format("woff2"), url(/font/Canela-Regular.woff) format("woff")
+}
+
+@font-face {
+    font-family: c;
+    font-weight: 300;
+    font-style: normal;
+    src: url(/font/Canela-Light.woff2) format("woff2"), url(/font/Canela-Light.woff) format("woff")
+}
+
+@font-face {
+    font-family: c;
+    font-weight: 500;
+    font-style: normal;
+    src: url(/font/Canela-Medium.woff2) format("woff2"), url(/font/Canela-Medium.woff) format("woff")
+}
+
+
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+.hero-banner-img {
+    width: 100%;
+    border: 1px solid #284135;
+}
+
+.welcome-message-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.name-1 {
+    margin: 2.05556vw 0 0;
+    font-size: 5.66667vw;
+    letter-spacing: -.08333vw;
+    font-family: c;
+    font-weight: 400;
+    color: #284135;
+}
+
+.subname-1 {
+    font-family: c;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
