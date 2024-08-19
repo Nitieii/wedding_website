@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #E4E3E7;
+    background-color: #ebe7e0;
     display: flex;
     height: 90vh;
     flex-direction: column;
@@ -78,7 +78,7 @@ body {
     letter-spacing: 0.1333vw;
     font-family: c;
     font-weight: 400;
-    color: #683e04;
+    color: #000;
 }
 
 .subname-1 {
