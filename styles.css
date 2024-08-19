@@ -7,9 +7,9 @@ html {
 }
 
 body {
-    background-color: #EEEDEE;
+    background-color: #683e04;
     display: flex;
-    height: 100vh;
+    height: 90vh;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -62,7 +62,6 @@ body {
 
 .hero-banner-img {
     width: 100%;
-    border: 1px solid #284135;
 }
 
 .welcome-message-container {
@@ -76,7 +75,7 @@ body {
 .name-1 {
     margin: 2.05556vw 0 0;
     font-size: 5.66667vw;
-    letter-spacing: -.08333vw;
+    letter-spacing: 0.1333vw;
     font-family: c;
     font-weight: 400;
     color: #284135;
@@ -91,4 +90,5 @@ body {
 
 .qr-code-img {
     width: 21.7vw;
+    height: 100%;
 }
