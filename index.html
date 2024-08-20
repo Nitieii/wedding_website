@@ -10,20 +10,40 @@
 
 <body>
     <div class="container">
-        <img class="hero-banner-img" src="./media/images/couple-1.jpg" alt="hero-couple-images" />
+        <div class='flip_box'>
+            <div class='front'>
+                <img class="hero-banner-img" src="./media/images/couple-1.jpg" alt="hero-couple-images" />
 
-        <div class="welcome-message-container">
-            <div class="welcome-message">
-                <h3 class="name-1">Ngo Thu Ha </h3>
-                <h3 class="name-1">Pham Long Hung</h3>
-                <p class="subname-1">We are getting married!</p>
+                <div class="welcome-message-container">
+                    <div class="welcome-message">
+                        <h3 class="name-1">Ngo Thu Ha </h3>
+                        <h3 class="name-1">Pham Long Hung</h3>
+                        <p class="subname-1">We are getting married!</p>
+                    </div>
+                    <!-- <div class="qr-code">
+                        <img class="qr-code-img" src="./media/images/qr.png" alt="qr-code" />
+                    </div> -->
+
+                </div>
             </div>
-            <div class="qr-code">
-                <img class="qr-code-img" src="./media/images/qr.png" alt="qr-code" />
+
+            <div class='back'>
+                <h1 class='b_headline'>うし</h1>
+                <p class='b_text'>えいごのなまえは？</p>
             </div>
         </div>
+
+        <div class='r_wrap'>
+            <div class='b_round'></div>
+            <div class='s_round'>
+                <div class='s_arrow'></div>
+            </div>
+        </div>
+
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./sw.js"></script>
 </body>
 
 </html>
