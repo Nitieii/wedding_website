@@ -226,6 +226,7 @@ body {
 
 .invitation-container {
     width: 100%;
+    height: 100%;
     max-width: 600px;
     text-align: center;
     position: relative;
@@ -256,19 +257,21 @@ body {
     margin: 0;
     color: #2f4858;
     letter-spacing: 1px;
+    margin: 15px 0;
 }
 
 .and {
     font-size: 16px;
-    margin: 10px 0;
+    margin-bottom: 10px;
     color: #2f4858;
 }
 
 .invitation-message {
     font-size: 18px;
-    margin: 20px 0;
+    margin: 60px 0;
     line-height: 1.5;
     color: #2f4858;
+    letter-spacing: 1px;
 }
 
 .event-details {
@@ -306,6 +309,8 @@ body {
     color: #2f4858;
     margin-top: 30px;
     line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .reception {
