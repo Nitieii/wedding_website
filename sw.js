@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var audio = new Audio('audio/music1.mp3');
+    var audio = new Audio('audio/marry-you.mp3');
 
     $(document).click(function () {
         if (audio.paused) {
