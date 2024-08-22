@@ -5,18 +5,19 @@
 .slider {
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(./media/images/final.jpg);
     width: 100%;
     height: 70vh;
     transition: all .2s ease-in-out;
-    animation: slide 10s infinite;
+    /* animation: slide 10s infinite; */
 }
 
-.overlay {
+/* .overlay {
     color: #fff;
     width: 100%;
     height: 70vh;
     transition: all .2s ease-in-out;
-}
+} */
 
 
 @keyframes slide {
