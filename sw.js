@@ -9,6 +9,7 @@ $(document).ready(function () {
     var audio = new Audio('audio/marry-you.mp3');
 
     $(document).click(function () {
+        makeItRain();
         // if (audio.paused) {
         //     audio.play().catch(function (e) {
         //         console.error('Error playing audio:', e);
@@ -85,3 +86,25 @@ function makeItRain() {
 function randomInRange(min, max) {
     return Math.random() * (max - min) + min;
 }
+
+function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+function showDesktopMessage() {
+    document.getElementById('desktop-message').style.display = 'block';
+    document.querySelector('.container').style.display = 'none';
+}
+
+if (!isMobile()) {
+    showDesktopMessage();
+}
+
+window.addEventListener('resize', function () {
+    if (!isMobile()) {
+        showDesktopMessage();
+    } else {
+        document.getElementById('desktop-message').style.display = 'none';
+        document.querySelector('.container').style.display = 'block';
+    }
+});
