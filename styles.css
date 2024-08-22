@@ -347,6 +347,10 @@ body {
     margin-top: 10px;
 }
 
+a:link {
+    color: #2f4858;
+}
+
 .reception {
     font-size: 14px;
     color: #2f4858;
