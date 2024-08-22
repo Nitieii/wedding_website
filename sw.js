@@ -17,10 +17,13 @@ $(document).ready(function () {
     });
 
     $(s_round).click(function () {
+        $('.slider').toggleClass('hidden');
+
         $('.flip_box').toggleClass('flipped');
         $(this).addClass('s_round_click');
         $('.s_arrow').toggleClass('s_arrow_rotate');
         $('.b_round').toggleClass('b_round_back_hover');
+
         return false;
     });
 
