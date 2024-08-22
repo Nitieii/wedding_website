@@ -47,6 +47,11 @@ $(document).ready(function () {
         $(this).addClass('s_round_back');
         return false;
     });
+
+    $('.address-btn').click(function () {
+        // pause the audio
+        audio.pause();
+    });
 });
 
 function makeItRain() {
