@@ -7,6 +7,7 @@
 
 .invitation-text {
     z-index: 2;
+    max-width: 380px;
 }
 
 .back-invitation-bg {
@@ -39,4 +40,34 @@
 .back-invitation-bg img:nth-child(4) {
     bottom: 80px;
     right: 0px;
+}
+
+.bride-groom-name {
+    font-weight: 400;
+}
+
+.and-container {
+    position: relative;
+
+}
+
+.and::before,
+.and::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    background: #2f4858;
+    transform: translateY(-50%);
+}
+
+.and::before {
+    left: 38%;
+    transform: translateX(-50%);
+}
+
+.and::after {
+    right: 38%;
+    transform: translateX(50%);
 }
