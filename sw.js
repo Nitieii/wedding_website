@@ -1,4 +1,11 @@
 $(document).ready(function () {
+    // delay for 2 seconds
+    setTimeout(function () {
+        makeItRain();
+    }
+        , 3000
+    );
+
     var audio = new Audio('audio/marry-you.mp3');
 
     $(document).click(function () {
@@ -33,3 +40,35 @@ $(document).ready(function () {
         return false;
     });
 });
+
+function makeItRain() {
+    var end = Date.now() + (2 * 1000);
+
+    var colors = ['#9DC5ED', '#D97EB9'];
+
+    function frame() {
+        confetti({
+            particleCount: 2,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0 },
+            colors: colors
+        });
+        confetti({
+            particleCount: 2,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1 },
+            colors: colors
+        });
+
+        if (Date.now() < end) {
+            requestAnimationFrame(frame);
+        }
+    };
+    frame();
+}
+
+function randomInRange(min, max) {
+    return Math.random() * (max - min) + min;
+}
