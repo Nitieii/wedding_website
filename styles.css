@@ -347,8 +347,10 @@ body {
     margin-top: 10px;
 }
 
-a:link {
+a {
     color: #2f4858;
+    text-decoration: underline;
+    text-decoration-color: #2f4858;
 }
 
 .reception {
