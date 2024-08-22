@@ -3,7 +3,7 @@ $(document).ready(function () {
     setTimeout(function () {
         makeItRain();
     }
-        , 3000
+        , 2000
     );
 
     var audio = new Audio('audio/marry-you.mp3');
