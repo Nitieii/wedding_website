@@ -1,10 +1,10 @@
 $(document).ready(function () {
     // delay for 2 seconds
-    // setTimeout(function () {
-    //     makeItRain();
-    // }
-    //     , 3000
-    // );
+    setTimeout(function () {
+        makeItRain();
+    }
+        , 3000
+    );
 
     var audio = new Audio('audio/marry-you.mp3');
 
