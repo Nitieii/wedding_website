@@ -1,4 +1,14 @@
 $(document).ready(function () {
+    var audio = new Audio('audio/music1.mp3');
+
+    $(document).click(function () {
+        if (audio.paused) {
+            audio.play().catch(function (e) {
+                console.error('Error playing audio:', e);
+            });
+        }
+    });
+
     var s_round = '.s_round';
 
     $(s_round).hover(function () {
