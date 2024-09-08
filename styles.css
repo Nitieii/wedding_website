@@ -717,3 +717,128 @@ span:nth-child(8) {
         transform: translate(-50%, -50%) rotate(180deg);
     }
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        padding: 20px;
+        /* aspect-ratio: 9 / 16; */
+        background-color: #ebe7e0;
+        /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+        /* overflow: hidden; */
+    }
+
+    .s_round {
+        bottom: 0px !important;
+        top: auto !important;
+    }
+
+    .flip_box,
+    .front,
+    .back {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .slider {
+        height: 100%;
+    }
+
+    .back {
+        height: 100%;
+    }
+
+    .invitation-container {
+        height: 100%;
+    }
+
+    .back-invitation-bg img {
+        position: absolute;
+    }
+
+    .back-invitation-bg img:nth-child(1) {
+        top: 0;
+        left: 0;
+        height: 22%;
+    }
+
+    .back-invitation-bg img:nth-child(2) {
+        top: 0;
+        right: 0;
+        height: 15%;
+    }
+
+    .back-invitation-bg img:nth-child(3) {
+        bottom: 0;
+        left: 0;
+        height: 15%;
+    }
+
+    .back-invitation-bg img:nth-child(4) {
+        bottom: 0;
+        right: 0;
+        height: 25%;
+    }
+
+    .r_wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .bride-groom-name {
+        font-size: 28px;
+    }
+
+    .invitation-message,
+    .time,
+    .venue,
+    .address {
+        font-size: 16px;
+    }
+
+    .family_info_col p {
+        font-size: 14px;
+    }
+
+    .loader-container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .bride-groom-name {
+        font-size: 32px;
+    }
+
+    .invitation-message,
+    .time,
+    .venue,
+    .address {
+        font-size: 18px;
+    }
+
+    .family_info_col p {
+        font-size: 16px;
+    }
+}
